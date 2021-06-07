@@ -32,7 +32,7 @@ function verifyNumInput(){
 		}
 		container.innerHTML = result;
 	} else {
-		alert(numInput + " is not an odd number");
+		alert(numInput + " is not a non-negative odd number");
 	}
 }
 
