@@ -1,11 +1,11 @@
-//verifies if character is either O,Z,X, orZ
+//verifies if character is either O,X,Y,orZ
 function verifyCharInput(){
 	var charInput = document.getElementById("charInput").value;
 	var capInput = charInput.toUpperCase();
 	var charsArr = ['O', 'X', 'Y', 'Z'];
 	if (charsArr.indexOf(capInput) >= 0) {
 	} else {
-		alert(charInput + " is not  O,Z,X, orZ");
+		alert(charInput + " is not  O,X,Y,orZ");
 	}
 }
 
